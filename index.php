@@ -128,9 +128,9 @@ include "valores.php";
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
         data-bs-content='Aqui poner información impoprtante al respecto del tema'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
-		<span class="input-group-text text-dark"
+		<!--span class="input-group-text text-dark"
 		data-bs-toggle="modal" data-bs-target="#modalImagenes" data-bs-detalle="p4.jpg" 
-		 title="Mostrar ubicación en el recibo de nómina"><i class="bi bi-eye-fill"></i></span>
+		 title="Mostrar ubicación en el recibo de nómina"><i class="bi bi-eye-fill"></i></span-->
 </div>
 
 
@@ -336,9 +336,9 @@ include "valores.php";
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
         data-bs-content='Aqui poner información impoprtante al respecto del tema'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
-    <span class="input-group-text text-dark"
+    <!--span class="input-group-text text-dark"
 		data-bs-toggle="modal" data-bs-target="#modalImagenes" data-bs-detalle="af.jpg" 
-		 title="Mostrar ubicación en el recibo de nómina"><i class="bi bi-eye-fill"></i></span>
+		 title="Mostrar ubicación en el recibo de nómina"><i class="bi bi-eye-fill"></i></span-->
 </div>
 <small class="form-text">Consulta tu recibo de nómina, lo recibiste en Febrero.</small>
 </div>
@@ -417,9 +417,9 @@ include "valores.php";
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
         data-bs-content='Aqui poner información impoprtante al respecto del tema'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
-    <span class="input-group-text text-dark"
+    <!--span class="input-group-text text-dark"
 		data-bs-toggle="modal" data-bs-target="#modalImagenes" data-bs-detalle="de.jpg" 
-		 title="Mostrar ubicación en el recibo de nómina"><i class="bi bi-eye-fill"></i></span>
+		 title="Mostrar ubicación en el recibo de nómina"><i class="bi bi-eye-fill"></i></span-->
 </div>
 <small class="form-text">Ingresa la cantidad recibida por los días económicos que no utilizaste.</small>
 </div>
