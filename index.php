@@ -59,9 +59,9 @@ include "valores.php";
 		<li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#modalAcercaDe">Acerca de</a>
         </li>
-		<!--li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Calcular</a>
-        </li-->
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://sutaimced.org/">Regresar al portal</a>
+        </li>
       </ul>
 	  <form class="d-flex" role="search">
         <a href="https://sutaimced.org"><button class="btn btn-success" type="submit">Salir</button></a>
@@ -87,7 +87,7 @@ include "valores.php";
   <input type="text" class="form-control" value="x 24 Quincenas" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Se paga cada Quincena.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 		<span class="input-group-text text-dark"
 		data-bs-toggle="modal" data-bs-target="#modalImagenes" data-bs-detalle="p1.jpg" 
@@ -100,7 +100,7 @@ include "valores.php";
   <input type="text" class="form-control" value="x 24 Quincenas" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Se paga cada Quincena.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 		<span class="input-group-text text-dark"
 		data-bs-toggle="modal" data-bs-target="#modalImagenes" data-bs-detalle="p2.jpg" 
@@ -113,7 +113,7 @@ include "valores.php";
   <input type="text" class="form-control" value="x 24 Quincenas" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Se paga cada Quincena y aparece como ayuda sindical.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 		<span class="input-group-text text-dark"
 		data-bs-toggle="modal" data-bs-target="#modalImagenes" data-bs-detalle="p3.jpg" 
@@ -126,7 +126,7 @@ include "valores.php";
   <input type="text" class="form-control" value="x 6 meses" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Se paga de manera bimestral, los meses Febrero, Abril, Junio, Agosto, Octubre y Diciembre.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 		<!--span class="input-group-text text-dark"
 		data-bs-toggle="modal" data-bs-target="#modalImagenes" data-bs-detalle="p4.jpg" 
@@ -144,7 +144,7 @@ include "valores.php";
   <input type="text" class="form-control" value="único" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Corresponde a el ISR de las dos partes del aguinaldo.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 
@@ -154,7 +154,7 @@ include "valores.php";
   <input type="text" class="form-control" value="único" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Pagado antes del día 5 de enero.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 
@@ -164,7 +164,7 @@ include "valores.php";
   <input type="text" class="form-control" value="único" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Se paga antes de la primer quincena de enero.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 
@@ -174,7 +174,7 @@ include "valores.php";
   <input type="text" class="form-control" value="único" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Pagada en la primer quincena de febrero.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 
@@ -184,7 +184,7 @@ include "valores.php";
   <input type="text" class="form-control" value="único" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Bono pagado en marzo'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 
@@ -194,7 +194,7 @@ include "valores.php";
   <input type="text" class="form-control" value="único" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Se recibe en mayo y/o junio.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 
@@ -204,7 +204,7 @@ include "valores.php";
   <input type="text" class="form-control" value="único" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Pagado en la primer quincena de mayo.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 
@@ -214,7 +214,7 @@ include "valores.php";
   <input type="text" class="form-control" value="único" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Se paga en la primer quincena de julio.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 
@@ -224,7 +224,7 @@ include "valores.php";
   <input type="text" class="form-control" value="único" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Se paga en Septiembre.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 
@@ -234,7 +234,7 @@ include "valores.php";
   <input type="text" class="form-control" value="único" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Pagado en la segunda quincena de agosto.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 
@@ -244,7 +244,7 @@ include "valores.php";
   <input type="text" class="form-control" value="único" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Pagado en el mes de noviembre.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 
@@ -254,7 +254,7 @@ include "valores.php";
   <input type="text" class="form-control" value="único" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Pagado en diciembre.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 
@@ -265,7 +265,7 @@ include "valores.php";
   <input type="text" class="form-control" value="único" disabled>
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Pagado en diciembre.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 
@@ -308,7 +308,7 @@ include "valores.php";
 <button class="btn btn-dark" type="button" data-bs-toggle="modal" data-bs-target="#modalSalarios">Cargar salarios</button>
 <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Ingresa el valor del primer concepto y duplica el resto, ya que el sistema calculará el total anual automáticamente.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 <small class="form-text">Carga los campos señalados para completar este campo</small>
@@ -321,7 +321,7 @@ include "valores.php";
 <button class="btn btn-dark" type="button" data-bs-toggle="modal" data-bs-target="#modalQuinquenios">Cargar quinquenios</button>
 <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Ingresa el valor del primer concepto y duplica el resto, ya que el sistema calculará el total anual automáticamente.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 <small class="form-text">Recuerda que si cumpliste más de 5 años de servicio, ya debes cargar tu quinquenio.</small>
@@ -334,7 +334,7 @@ include "valores.php";
   <input type="number" class="form-control" id="af" name="af" value="0.00">
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Pagado en el mes de febrero, corresponde a los meses con 31 dias, así como el ajuste por año bisiesto.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
     <!--span class="input-group-text text-dark"
 		data-bs-toggle="modal" data-bs-target="#modalImagenes" data-bs-detalle="af.jpg" 
@@ -351,7 +351,7 @@ include "valores.php";
 <button class="btn btn-dark" type="button" data-bs-toggle="modal" data-bs-target="#modalCompensacion">Agregar compensacion</button>
 <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Ingresa el valor del primer concepto y duplica el resto, ya que el sistema calculará el total anual automáticamente.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 <small class="form-text">En esta sección agregaras el "Medio Tiempo" y cualquier compensación adicional.</small>
@@ -366,7 +366,7 @@ include "valores.php";
   <input type="number" class="form-control" id="ag2" name="ag2" value="0.00">
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Pagado en 2 partes durante el mes de noviembre y diciembre.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
     <span class="input-group-text text-dark"
 		data-bs-toggle="modal" data-bs-target="#modalImagenes" data-bs-detalle="ag.jpg" 
@@ -383,7 +383,7 @@ include "valores.php";
   <input type="number" class="form-control" id="pv2" name="pv2" value="0.00">
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Corresponde a la prima vacacional que se paga en marzo (Semana santa) y diciembre.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
     <span class="input-group-text text-dark"
 		data-bs-toggle="modal" data-bs-target="#modalImagenes" data-bs-detalle="pv.jpg" 
@@ -400,7 +400,7 @@ include "valores.php";
   <input type="number" class="form-control" id="em" name="em" value="0">
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Número de veces que has recibido el reconocimiento de empleado del mes, el sistema calculará el total anual automáticamente.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
     <span class="input-group-text text-dark"
 		data-bs-toggle="modal" data-bs-target="#modalImagenes" data-bs-detalle="em.jpg" 
@@ -415,7 +415,7 @@ include "valores.php";
   <input type="number" class="form-control" id="de" name="de" value="0.00">
   <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Ingresa el total recibido de los dias economicos que no utilizaste.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
     <!--span class="input-group-text text-dark"
 		data-bs-toggle="modal" data-bs-target="#modalImagenes" data-bs-detalle="de.jpg" 
@@ -440,7 +440,7 @@ include "valores.php";
 <button class="btn btn-dark" type="button" data-bs-toggle="modal" data-bs-target="#modalISR">Cargar ISR</button>
 <span class="input-group-text text-danger" data-bs-toggle="popover" data-bs-placement="right"
         data-bs-custom-class="custom-popover" data-bs-title="Nota importante"
-        data-bs-content='Aqui poner información impoprtante al respecto del tema'
+        data-bs-content='Es el impuesto que te se te ha retenido durante el año, es importante que ingreses el monto de cada quincena, así como el monto retenido en aguinaldo, prima vacacional y otros pagos adicionales.'
 		data-bs-html="true" title="Mostrar información detallada"><i class="bi bi-question-octagon-fill"></i></span>
 </div>
 <small class="form-text">Carga los campos señalados para completar este campo</small>
