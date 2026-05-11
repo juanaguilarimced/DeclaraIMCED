@@ -1043,7 +1043,7 @@ include "valores.php";
       <div class="card-body">
         <h5 class="card-title">Declara IMCED 2026</h5>
         <p class="card-text">El programa para ayudar en la declaración 2026 fue diseñado para orientar y ayudar a calcular los ingresos a declarar, es importante verificar que todos los datos estén correctamente ingresados, el sistema no almacena ningun dato, información
- o resultado, todo se procesa en tu navegador y se borra al cerrar la pestaña, el programa es completamente gratuito y de código abierto, puedes revisar el código en el repositorio de <a href="https://github.com/IMCED/DeclaraIMCED" target="_blank">GitHub</a>
+ o resultado, todo se procesa en tu navegador y se borra al cerrar la pestaña, el programa es completamente gratuito y de código abierto, puedes revisar el código en el repositorio de <a href="https://github.com/juanaguilarimced/DeclaraIMCED" target="_blank">GitHub</a>
 
         </nav>.</p>
         <p class="card-text"><small class="text-body-secondary">Diseñado por juan.aguilar@imced.edu.mx</small></p>
