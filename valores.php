@@ -27,6 +27,6 @@ $bonos = "bonos = ['0.00','1817.55','1243.20','2934.75','917.70','746.55','2300.
 
 // Prestaciones
 
-$prestaciones = "prestaciones = ['264.45','81.14','277.72','1127.23','375.00']";
+$prestaciones = "prestaciones = ['264.45','81.14','277.72','1127.23','393.75']";
 
 $prestacionesTXT = "prestacionesTXT = ['Despensa','Fondo social','Bono sindical','bono capacitacion (Bimestral)','bono puntualidad']";
