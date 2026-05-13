@@ -378,9 +378,11 @@ $pdf->Cell(80,4,'Otros ingresos',1,1,'C',true);
  $pdf->Cell(30,4,number_format($_POST['pv2'], 2, '.', ','),1,1,'C');
  $preOtrosIngresos += $_POST['pv2'];
 
+
+
 $pdf->Cell(50,4,'Empleado del mes',1,0,'C');
- $pdf->Cell(30,4,number_format($_POST['em'], 2, '.', ','),1,1,'C');
- $preOtrosIngresos += $_POST['em'];
+ $pdf->Cell(30,4,number_format(($_POST['em'] * $_POST['p5']), 2, '.', ','),1,1,'C');
+ $preOtrosIngresos += ($_POST['em'] * $_POST['p5']);
 
   $pdf->Cell(50,4,'Dias economicos no disfrutados',1,0,'C');
  $pdf->Cell(30,4,number_format($_POST['de'], 2, '.', ','),1,1,'C');
@@ -446,9 +448,17 @@ $pdf->SetFillColor(255,194,194);
 
 $ingresosNetos = $preSalario + $PreDespensa + $preFondo + $preQuinquenio + $preBonoSindical + $preCompensacion + $preOtrosIngresos;
 
+
+
+
+
 $deducciones = $preISR + $preDeduccionesExtras;
 
 $preingresAnuales = $ingresosNetos - $deducciones;
+
+
+
+
 
 $totalADeclarar = $preingresAnuales + $preBonos;
 

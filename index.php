@@ -481,6 +481,11 @@ include "valores.php";
   <input type="number" name="descuentos" id="descuentos" class="form-control" value="0.00">
 </div>
 
+<div class="input-group mb-3">
+  <span class="input-group-text">Total a declarar</span>
+  <input type="number" name="totalADeclarar" id="totalADeclarar" class="form-control" value="0.00">
+</div>
+
 
 <div class="d-grid gap-2">
   <button class="btn btn-success" type="button" onclick="calcular()">Calcular</button>
@@ -605,10 +610,10 @@ include "valores.php";
 	  
 <div class="col-lg-12">
 
-<div class="input-group input-group-sm mb-3">
+<div class="input-group input-group-sm mb-3 collapse">
   <span class="input-group-text">Prima vacacional Semana santa</span>
   <input type="number" id="is25" name="is25" class="form-control" value="0.00">
-    <span class="input-group-text">Prima vacacional Diciembre</span>
+  <span class="input-group-text">Prima vacacional Diciembre</span>
   <input type="number" id="is26" name="is26" class="form-control" value="0.00">
 </div>
 
@@ -621,7 +626,7 @@ include "valores.php";
 
 
 
-<div class="input-group input-group-sm mb-3">
+<div class="input-group input-group-sm mb-3 collapse">
   <span class="input-group-text">Dias de ajuste fiscal</span>
   <input type="number" id="is29" name="is29" class="form-control" value="0.00">
 </div>
@@ -1295,6 +1300,7 @@ document.getElementById('sueldo').value = sueldo.toFixed(2);
 document.getElementById('bonos').value = bonos.toFixed(2);
 document.getElementById('totalIngresos').value = (sueldo + bonos).toFixed(2);
 document.getElementById('descuentos').value = descuentos.toFixed(2);
+document.getElementById('totalADeclarar').value = (sueldo + bonos - descuentos).toFixed(2);
 
 } catch (error) {
   // Código para manejar el error
